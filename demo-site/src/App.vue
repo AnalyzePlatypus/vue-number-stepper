@@ -9,12 +9,12 @@
       <h2>Props</h2>
       <div class="setting-row">
         <label for="">Min value: <span class="value">{{minValue}}</span></label>
-        <VueNumberStepper v-model="minValue"/>
+        <input type="number" v-model="minValue">
       </div>
 
       <div class="setting-row">
         <label for="">Max value: <span class="value">{{maxValue}}</span></label>
-        <VueNumberStepper v-model="maxValue"/>
+        <input type="number" v-model="maxValue">
       </div>
 
        <div class="setting-row">

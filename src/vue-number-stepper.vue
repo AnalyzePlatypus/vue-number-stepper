@@ -61,7 +61,7 @@ export default {
     },
     autoTapRepeatIncrementMilliseconds: {
       type: Number,
-      default: 250
+      default: 150
     },
   },
   data() {

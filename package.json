@@ -1,7 +1,7 @@
 {
   "name": "vue-number-stepper",
   "version": "0.9.0",
-  "description": "",
+  "description": "iOS-style stepper control for Vue.js https://vue-number-stepper.netlify.app",
   "main": "dist/vue-number-stepper.ssr.js",
   "module": "dist/vue-number-stepper.esm.js",
   "unpkg": "dist/vue-number-stepper.min.js",

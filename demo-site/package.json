@@ -1,5 +1,5 @@
 {
-  "name": "demo-site",
+  "name": "Vue Number Stepper Demo",
   "version": "0.1.0",
   "private": true,
   "scripts": {
