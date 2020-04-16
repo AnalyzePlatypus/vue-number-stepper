@@ -15,7 +15,8 @@
     "build:ssr": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format cjs",
     "build:es": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format es",
     "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife",
-    "test": "jest --watch --coverage || true"
+    "test": "jest --watch --coverage || true",
+    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
   },
   "dependencies": {
     "node-sass": "^4.13.1",
@@ -26,6 +27,7 @@
     "babel-core": "^6.26.3",
     "babel-jest": "^25.3.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "coveralls": "^3.0.11",
     "cross-env": "^5.2.0",
     "jest": "^25.3.0",
     "minimist": "^1.2.0",
